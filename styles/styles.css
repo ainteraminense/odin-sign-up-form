@@ -1,0 +1,13 @@
+body {
+    display: flex;
+}
+
+.logo-section {
+    background-color: #596D48; /* remove this */
+    flex: 1;
+    height: 100vh;
+}
+
+.form-section {
+    flex: 2;
+}
