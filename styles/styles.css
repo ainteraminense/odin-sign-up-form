@@ -3,7 +3,8 @@ body {
 }
 
 .logo-section {
-    background-color: #596D48; /* remove this */
+    background: url(../images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
     flex: 1;
     height: 100vh;
 }
