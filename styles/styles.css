@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Norsebold";
+    src:
+        url(../fonts/Norsebold.woff2),
+        format("woff2");
+}
+
 body {
     display: flex;
 }
@@ -7,8 +14,33 @@ body {
     background-size: cover;
     flex: 1;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .form-section {
     flex: 2;
+}
+
+.logo {
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+
+.logo h1 {
+    font-family: "Norsebold";
+    color: #FFF;
+    font-size: 500%; /* check this later */
+}
+
+.logo-section .credit {
+    font-size: 50%;
+    color: #FFF;
+    font-weight: 100;
+    text-align: center;
 }
