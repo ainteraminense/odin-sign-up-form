@@ -29,6 +29,22 @@ body {
     font-family: "Times New Roman", Times, serif;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.form-row {
+    display: flex;
+    gap: 64px;
+}
+
+.form-col {
+    display: flex;
+    flex-direction: column;
+}
+
 .logo {
     background: rgba(0, 0, 0, 0.5);
     display: flex;
