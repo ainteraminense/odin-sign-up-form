@@ -26,20 +26,23 @@ body {
     flex: 2;
     background: #f7fffc;
     font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 12px;
     margin: 0;
     background: #FFF;
     box-shadow: 0 4px 4px 2px #989e9c; 
 }
 
-form,
+form {
+    padding: 0 48px 24px;
+}
 .form-section > h2 {
-    padding: 80px 48px;
+    padding: 48px 48px 24px;
 }
 
 .form-row {
@@ -74,3 +77,20 @@ form,
     text-align: center;
 }
 
+.log-in {
+    padding: 16px 48px 0;
+}
+
+button {
+    padding: 8px 32px;
+    border-radius: 10px;
+    border: none;
+    background: #596D48;
+    color: #FFF;
+}
+
+a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
