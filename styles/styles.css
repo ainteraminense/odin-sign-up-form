@@ -94,3 +94,17 @@ a {
     text-decoration: none;
     font-weight: bold;
 }
+
+input {
+    border: solid 1px #E5E7EB;
+}
+
+input:invalid[type="password"] {
+    border: solid 1px #e32c2c;
+}
+
+input:focus {
+    border: solid 1px #686af3;
+    outline: none;
+    box-shadow: 1px 1px 5px 0.5px;
+}
